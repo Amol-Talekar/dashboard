@@ -1,6 +1,6 @@
 import React from "react";
 import { Search } from "@mui/icons-material";
-import { TextField, IconButton, InputAdornment } from "@mui/material";
+import { IconButton, TextField, InputAdornment } from "@mui/material";
 import {
   GridToolbarDensitySelector,
   GridToolbarContainer,
@@ -9,25 +9,30 @@ import {
 } from "@mui/x-data-grid";
 import FlexBetween from "./FlexBetween";
 
-const DataGridCustomToolbar = () => {
+const DataGridCustomToolbar = ({ searchInput, setSearchInput, setSearch }) => {
   return (
     <GridToolbarContainer>
-      <FlexBetween>
+      <FlexBetween width="100%">
         <FlexBetween>
           <GridToolbarColumnsButton />
           <GridToolbarDensitySelector />
           <GridToolbarExport />
         </FlexBetween>
-
         <TextField
-          label="Search.."
+          label="Search..."
           sx={{ mb: "0.5rem", width: "15rem" }}
-          // onChange={(e)=>setSearchInput(e.target.value)}
-          //value={searchInput}
+          onChange={(e) => setSearchInput(e.target.value)}
+          value={searchInput}
+          variant="standard"
           InputProps={{
             endAdornment: (
               <InputAdornment position="end">
-                <IconButton onClick={() => {}}>
+                <IconButton
+                  onClick={() => {
+                    setSearch(searchInput);
+                    setSearchInput("");
+                  }}
+                >
                   <Search />
                 </IconButton>
               </InputAdornment>
