@@ -125,7 +125,7 @@ const BreakdownChart = ({ isDashboard = false }) => {
         left="50%"
         color={theme.palette.secondary[400]}
         textAlign="center"
-        pointerevents="none"
+        pointerEvents="none"
         sx={{
           transform: isDashboard
             ? "translate(-75%,-170%)"
