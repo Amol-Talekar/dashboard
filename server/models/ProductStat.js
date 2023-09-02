@@ -26,17 +26,19 @@ const ProductStatSchema = new mongoose.Schema({
       },
     },
   ],
-  dailyData: {
-    date: {
-      type: String,
+  dailyData: [
+    {
+      date: {
+        type: String,
+      },
+      totalSales: {
+        type: Number,
+      },
+      totalUnits: {
+        type: Number,
+      },
     },
-    totalSales: {
-      type: Number,
-    },
-    totalUnits: {
-      type: Number,
-    },
-  },
+  ],
 });
 
 const ProductStat = mongoose.model("ProductStat", ProductStatSchema);

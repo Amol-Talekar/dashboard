@@ -17,11 +17,13 @@ import {
   dataProduct,
   dataProductStat,
   dataTransaction,
+  dataOverallStat,
 } from "./data/index.js";
 
 import Product from "./models/Product.js";
 import ProductStat from "./models/ProductStat.js";
 import Transaction from "./models/Transaction.js";
+import OverallStat from "./models/OverallStat.js";
 
 // configuration
 dotenv.config();
@@ -50,8 +52,9 @@ mongoose
     app.listen(PORT, () => console.log(`Server listening on ${PORT}`));
     //User.insertMany(dataUser);
     //Product.insertMany(dataProduct);
-    //ProductStat.insertMany(dataProductStat);
+    // ProductStat.insertMany(dataProductStat);
     //Transaction.insertMany(dataTransaction);
+    // OverallStat.insertMany(dataOverallStat);
   })
   .catch((error) =>
     console.log(`Server did not connect due to error : ${error}`)
