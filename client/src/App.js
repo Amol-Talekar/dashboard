@@ -15,6 +15,7 @@ import Monthly from "scenes/montly";
 import Overview from "scenes/overview";
 import Products from "scenes/products";
 import Transactions from "scenes/transactions";
+import Performance from "scenes/performance";
 import { themeSettings } from "theme";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
               <Route path="/monthly" element={<Monthly />} />
               <Route path="/breakdown" element={<Breakdown />} />
               <Route path="/admin" element={<Admins />} />
+              <Route path="/performance" element={<Performance />} />
             </Route>
           </Routes>
         </ThemeProvider>
