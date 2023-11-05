@@ -1,7 +1,3 @@
-Certainly! Here's a template for a README file for your MERN stack project:
-
----
-
 # MERN Stack Dashboard Project
 
 Welcome to our MERN stack project—a robust Dashboard panel designed to visualize and analyze a user's product data through pie, line, and bar charts. This project utilizes a sophisticated data aggregation pipeline in the backend to transform data, offering insightful performance metrics for products.
@@ -86,8 +82,4 @@ To run this project locally, follow these steps:
 
 ## Output
 
-Once the server and client are up and running, access the Dashboard via the following URL: https://dashboard-client-w6pd.onrender.com/dashboard(url).
-
----
-
-Feel free to adjust the sections, descriptions, or add more details as per your project's specific features and requirements. This template provides a basic structure to guide users through installing and understanding your MERN stack project.
+https://dashboard-client-w6pd.onrender.com/dashboard(url).
