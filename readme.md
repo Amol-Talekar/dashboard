@@ -1,6 +1,6 @@
 # MERN Stack Dashboard Project
 
-Welcome to our MERN stack project—a robust Dashboard panel designed to visualize and analyze a user's product data through pie, line, and bar charts. This project utilizes a sophisticated data aggregation pipeline in the backend to transform data, offering insightful performance metrics for products.
+Welcome to my MERN stack project—a robust Dashboard panel designed to visualize and analyze a user's product data through pie, line, and bar charts. This project utilizes a sophisticated data aggregation pipeline in the backend to transform data, offering insightful performance metrics for products.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ Welcome to our MERN stack project—a robust Dashboard panel designed to visuali
 
 ## Description
 
-The Dashboard Panel is designed to provide users with a clear and intuitive representation of their product data. By implementing pie, line, and bar charts, this platform enables users to gain meaningful insights into the performance and trends of their products. The backend incorporates a complex data aggregation pipeline to process and transform raw data into visually comprehensible performance metrics.
+The Dashboard Panel is designed to provide users with a clear and intuitive representation of their product data with both light and dark mode. By implementing pie, line, and bar charts, this platform enables users to gain meaningful insights into the performance and trends of their products. The backend incorporates a complex data aggregation pipeline to process and transform raw data into visually comprehensible performance metrics.
 
 ## Tech Stack
 
