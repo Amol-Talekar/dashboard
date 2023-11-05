@@ -82,4 +82,4 @@ To run this project locally, follow these steps:
 
 ## Output
 
-https://dashboard-client-w6pd.onrender.com/dashboard
+https://dashboard-client-w6pd.onrender.com/
